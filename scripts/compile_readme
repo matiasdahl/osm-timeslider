@@ -1,0 +1,6 @@
+#!/bin/bash
+jupyter nbconvert --execute \
+        --to markdown \
+        --template=hidecode \
+        '--TemplateExporter.template_path=["./scripts"]' \
+        README.ipynb 
