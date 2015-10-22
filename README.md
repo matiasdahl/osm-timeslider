@@ -186,3 +186,5 @@ A more detailed description of how the amenity map elements were extracted is gi
 ### License 
 
 The above table is generated from data from the [OpenStreetMap](https:/openstreetmap.org) project. The OSM data is © OpenStreetMap contributors, and it is available under the terms of the [Open Database License](https://www.openstreetmap.org/copyright).
+
+For the license of the `osm-timeslider` visualization, see the [LICENSE.md](LICENSE.md) file.

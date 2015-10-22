@@ -1,0 +1,56 @@
+#!/bin/bash
+
+cd public
+if [ -d ./lib ]
+then
+   echo "'public/lib' directory already exists. First remove it."
+   exit 1;
+fi
+
+mkdir lib
+cd lib
+
+#
+#  Spinkit 1.2.2
+#    https://github.com/tobiasahlin/SpinKit
+#
+wget https://github.com/tobiasahlin/SpinKit/archive/1.2.2.zip
+unzip 1.2.2.zip
+rm 1.2.2.zip
+
+#
+#  jQuery modal v0.5.9
+#    https://github.com/kylefox/jquery-modal
+#
+wget https://github.com/kylefox/jquery-modal/archive/v0.5.9.zip
+unzip v0.5.9.zip
+rm v0.5.9.zip
+
+#
+#  Leaflet 1.0 beta
+#    https://github.com/Leaflet/Leaflet
+#
+wget https://github.com/Leaflet/Leaflet/archive/v1.0.0-beta.2.zip
+unzip v1.0.0-beta.2.zip
+rm v1.0.0-beta.2.zip
+
+#
+#  jQRangeSlider 5.7.1
+#    https://github.com/ghusse/jQRangeSlider
+#
+#  and create minified version: See
+#    https://github.com/ghusse/jQRangeSlider
+#
+wget https://github.com/ghusse/jQRangeSlider/archive/5.7.1.zip
+unzip 5.7.1.zip
+rm 5.7.1.zip
+
+cd jQRangeSlider-5.7.1
+sudo npm install
+sudo npm install -g grunt-cli
+grunt uglify
+
+cd ../..
+
+
+

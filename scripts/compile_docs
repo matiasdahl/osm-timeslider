@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Compile the Jupyter notebooks `./LICENCE.ipynb` and `./README.ipynb`
+# into corresponding markdown files.
+
+jupyter nbconvert --execute \
+        --to markdown \
+        --template=hidecode \
+        '--TemplateExporter.template_path=["./scripts"]' \
+        README.ipynb
+
+jupyter nbconvert --execute \
+        --to markdown \
+        --template=hidecode \
+        '--TemplateExporter.template_path=["./scripts"]' \
+        LICENSE.ipynb
