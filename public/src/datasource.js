@@ -21,7 +21,7 @@ var DataSource = function() {
 			color : this.colorPalette[year - 2007],
 			fillColor : this.colorPalette[year - 2007],
 			fillOpacity : 0.5
-		}).setRadius(2.0).bindPopup(description);
+		}).setRadius(0.75).bindPopup(description);
 		this.points.push(new MapMarker(year, month, day, marker));
 	}.bind(this);
 

@@ -1,5 +1,13 @@
 
-The below list shows the amenities extracted by the `am-process-data.R` script found in the `./data` directory. The list shows those amenity map elements with c. 20k - 100k elements in the current snapshot of the [OpenStreetMap](https://openstreetmap.org) (as of 10/2015). This list contains 27 amenities. 
+The [OpenStreetMap](http://www.openstreetmap.org/) project started in 2004, and as of 10/2015, the project contains slightly more than 3 billion map elements with approximately 1 million entries added per day, see the [OSM wiki](http://wiki.openstreetmap.org/wiki/Stats). Regarding the coverage of the OpenStreetMap, it is well known that -- at least currently -- it is very uneven, and the level of detail varies significantly from location to location. This can, for example, be seen from the [interactive visualization](http://tyrasd.github.io/osm-node-density/#2/16.5/389.2) of node density by Martin Raifer, see also the [writeup](http://www.openstreetmap.org/user/tyr_asd/diary/22363). 
+
+Instead of visualizing *all* elements on the latest version of the map, the purpose of `osm-timeslider` (this repo) is to give a way to visualize the *history* of the OSM; `osm-timeslider` makes it possible to selectively view elements that were last edited (or created) during a specific time period. The motivation for doing this is to give a way to better understand how the OpenStreetMap has evolved into its current state. However, to keep the scope of this work somehow under control, `osm-timeslider` will not consider all map elements. Rather, it will restrict to *amenities*, that is, map elements with an `amenity=..`-tag. These are one of the most frequently used tags on the OSM. Further, the visualizations are restricted to those amenities with c. 20k - 100k elements on the current map. General information about amenities and their use on the OpenStreetMap is collected on the [OSM wiki](http://wiki.openstreetmap.org/wiki/Key:amenity). Statistics about the most popular tags (including amenity tags) can be found on the [taginfo webpage](https://taginfo.openstreetmap.org/keys/amenity#values). 
+
+`osm-timeslider` is browser-based and written using the [Leaflet library](http://leafletjs.com/). 
+
+The below screenshots show examples of `osm-timeslider` in use. The first screenshot shows clinics in a region around Mali. Each clinic element (that is, each map element with an `amenity=clinic` tag) is shown as as a colored dot with the color indicating when the element was last edited (or created). For example, the teal colored dots represent map elements with a timestamp from 2013. Moreover, the slider on the bottom of the screen can be used to change the selected time period. In the clinic screenshot, the slider is set to display clinics from 2007 to the beginning of 2015. Clicking on a marker also displays further information about the map element.
+
+The below list shows the amenities extracted by the `am-process-data.R` script found in the `./data` directory. The list shows those amenities with c. 20k - 100k elements in the current snapshot of the [OpenStreetMap](https://openstreetmap.org) (as of 10/2015). This list contains 27 amenities. 
 
 
 
@@ -181,10 +189,28 @@ The below list shows the amenities extracted by the `am-process-data.R` script f
 
 
 
-A more detailed description of how the amenity map elements were extracted is given in the [README](./data/README.md) file for the `am-process-data.R`-script.
+A more detailed description of how the amenity map elements were extracted is given in the [README](./data/README.md) file in the `data` directory.
+
+## Screenshots
+
+### Clinics in Mali
+
+![](./images/clinic.png)
+
+### Townhalls in the USA
+
+![](./images/townhall.png)
+
+The Geographic Names Information System (GNIS) is a database of millions of geographic features in the USA. This was imported into the OSM in 2009, see the [OSM wiki](http://wiki.openstreetmap.org/wiki/USGS_GNIS). In the United States, these database imports can be seen for many of the amenities listed above. These kinds of large database imports can be seen as large point clouds suddenly appearing (or disappearing) when moving the slider. The orange dots in the above screenshot show townhall amenities with a timestamp from 2009. The red dots are townhalls in Boston with a timestamp from 2008, see changeset [143731](http://www.openstreetmap.org/changeset/143731).
+
+### Police stations in Japan/South Korea
+
+![](./images/police.png)
+
+South Korea divides into two regions. The orange dots (in the south) represent police stations with a timestamp from 2009. The teal dots (in the north) represent police stations with a timestamp from 2012. Similarly, the green dots (in the south of Japan) represent police stations with a timestamp from 2011. 
 
 ### License 
 
-The above table is generated from data from the [OpenStreetMap](https:/openstreetmap.org) project. The OSM data is © OpenStreetMap contributors, and it is available under the terms of the [Open Database License](https://www.openstreetmap.org/copyright).
+The above table and images are generated using data from the [OpenStreetMap](https:/openstreetmap.org) project. The OSM data is © OpenStreetMap contributors, and it is available under the terms of the [ODbL](https://www.openstreetmap.org/copyright). Maps are drawn using the [Leaflet library](http://leafletjs.com/) using the [Positron tiles](https://cartodb.com/basemaps), tiles © CartoDB, CC BY 3.0. 
 
-For the license of the `osm-timeslider` visualization, see the [LICENSE.md](LICENSE.md) file.
+For further license information, see the [LICENSE.md](LICENSE.md) file.
