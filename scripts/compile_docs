@@ -1,16 +1,24 @@
 #!/bin/bash
 
+# TODO: check that nbstripout.py is installed
+
+#
 # Compile the Jupyter notebooks `./LICENCE.ipynb` and `./README.ipynb`
-# into corresponding markdown files.
+# into corresponding markdown files. After that strip any output from
+# the .ipynb files.
+#
 
-jupyter nbconvert --execute \
-        --to markdown \
-        --template=hidecode \
-        '--TemplateExporter.template_path=["./scripts"]' \
-        README.ipynb
+function process2md {
+  jupyter nbconvert --execute \
+          --to markdown \
+          --template=hidecode \
+          '--TemplateExporter.template_path=["./scripts"]' \
+          $1
 
-jupyter nbconvert --execute \
-        --to markdown \
-        --template=hidecode \
-        '--TemplateExporter.template_path=["./scripts"]' \
-        LICENSE.ipynb
+
+  nbstripout.py $1
+}
+
+process2md README.ipynb
+process2md LICENSE.ipynb
+
