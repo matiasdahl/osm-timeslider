@@ -14,33 +14,33 @@ The below list shows the amenities extracted by the `am-process-data.R` script f
 
 |amenity|count|taginfo link|OSM wiki|
 |:----|----:|----:|----:|
-|drinking_water| 102k|[link](https://taginfo.openstreetmap.org/tags/amenity=drinking_water)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water)|
-|telephone| 92k|[link](https://taginfo.openstreetmap.org/tags/amenity=telephone)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtelephone)|
-|atm| 89k|[link](https://taginfo.openstreetmap.org/tags/amenity=atm)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm)|
-|bar| 84k|[link](https://taginfo.openstreetmap.org/tags/amenity=bar)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbar)|
-|police| 78k|[link](https://taginfo.openstreetmap.org/tags/amenity=police)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpolice)|
-|fire_station| 78k|[link](https://taginfo.openstreetmap.org/tags/amenity=fire_station)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfire_station)|
-|townhall| 72k|[link](https://taginfo.openstreetmap.org/tags/amenity=townhall)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtownhall)|
-|parking_space| 71k|[link](https://taginfo.openstreetmap.org/tags/amenity=parking_space)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dparking_space)|
-|hunting_stand| 70k|[link](https://taginfo.openstreetmap.org/tags/amenity=hunting_stand)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhunting_stand)|
-|vending_machine| 64k|[link](https://taginfo.openstreetmap.org/tags/amenity=vending_machine)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dvending_machine)|
-|fountain| 57k|[link](https://taginfo.openstreetmap.org/tags/amenity=fountain)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfountain)|
-|library| 53k|[link](https://taginfo.openstreetmap.org/tags/amenity=library)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dlibrary)|
-|doctors| 49k|[link](https://taginfo.openstreetmap.org/tags/amenity=doctors)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors)|
-|swimming_pool| 47k|[link](https://taginfo.openstreetmap.org/tags/amenity=swimming_pool)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dswimming_pool)|
-|social_facility| 39k|[link](https://taginfo.openstreetmap.org/tags/amenity=social_facility)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dsocial_facility)|
-|university| 38k|[link](https://taginfo.openstreetmap.org/tags/amenity=university)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Duniversity)|
-|car_wash| 36k|[link](https://taginfo.openstreetmap.org/tags/amenity=car_wash)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcar_wash)|
-|college| 32k|[link](https://taginfo.openstreetmap.org/tags/amenity=college)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcollege)|
-|bus_station| 30k|[link](https://taginfo.openstreetmap.org/tags/amenity=bus_station)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbus_station)|
-|community_centre| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=community_centre)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcommunity_centre)|
-|marketplace| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=marketplace)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dmarketplace)|
-|dentist| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=dentist)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist)|
-|waste_disposal| 28k|[link](https://taginfo.openstreetmap.org/tags/amenity=waste_disposal)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal)|
-|theatre| 21k|[link](https://taginfo.openstreetmap.org/tags/amenity=theatre)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtheatre)|
-|taxi| 21k|[link](https://taginfo.openstreetmap.org/tags/amenity=taxi)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtaxi)|
-|clinic| 20k|[link](https://taginfo.openstreetmap.org/tags/amenity=clinic)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic)|
-|parking_entrance| 19k|[link](https://taginfo.openstreetmap.org/tags/amenity=parking_entrance)|[link](href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dparking_entrance)|
+|drinking_water| 102k|[link](https://taginfo.openstreetmap.org/tags/amenity=drinking_water)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water)|
+|telephone| 92k|[link](https://taginfo.openstreetmap.org/tags/amenity=telephone)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtelephone)|
+|atm| 89k|[link](https://taginfo.openstreetmap.org/tags/amenity=atm)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm)|
+|bar| 84k|[link](https://taginfo.openstreetmap.org/tags/amenity=bar)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbar)|
+|police| 78k|[link](https://taginfo.openstreetmap.org/tags/amenity=police)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpolice)|
+|fire_station| 78k|[link](https://taginfo.openstreetmap.org/tags/amenity=fire_station)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfire_station)|
+|townhall| 72k|[link](https://taginfo.openstreetmap.org/tags/amenity=townhall)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtownhall)|
+|parking_space| 71k|[link](https://taginfo.openstreetmap.org/tags/amenity=parking_space)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dparking_space)|
+|hunting_stand| 70k|[link](https://taginfo.openstreetmap.org/tags/amenity=hunting_stand)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhunting_stand)|
+|vending_machine| 64k|[link](https://taginfo.openstreetmap.org/tags/amenity=vending_machine)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dvending_machine)|
+|fountain| 57k|[link](https://taginfo.openstreetmap.org/tags/amenity=fountain)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfountain)|
+|library| 53k|[link](https://taginfo.openstreetmap.org/tags/amenity=library)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dlibrary)|
+|doctors| 49k|[link](https://taginfo.openstreetmap.org/tags/amenity=doctors)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors)|
+|swimming_pool| 47k|[link](https://taginfo.openstreetmap.org/tags/amenity=swimming_pool)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dswimming_pool)|
+|social_facility| 39k|[link](https://taginfo.openstreetmap.org/tags/amenity=social_facility)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dsocial_facility)|
+|university| 38k|[link](https://taginfo.openstreetmap.org/tags/amenity=university)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Duniversity)|
+|car_wash| 36k|[link](https://taginfo.openstreetmap.org/tags/amenity=car_wash)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcar_wash)|
+|college| 32k|[link](https://taginfo.openstreetmap.org/tags/amenity=college)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcollege)|
+|bus_station| 30k|[link](https://taginfo.openstreetmap.org/tags/amenity=bus_station)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbus_station)|
+|community_centre| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=community_centre)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcommunity_centre)|
+|marketplace| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=marketplace)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dmarketplace)|
+|dentist| 29k|[link](https://taginfo.openstreetmap.org/tags/amenity=dentist)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist)|
+|waste_disposal| 28k|[link](https://taginfo.openstreetmap.org/tags/amenity=waste_disposal)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal)|
+|theatre| 21k|[link](https://taginfo.openstreetmap.org/tags/amenity=theatre)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtheatre)|
+|taxi| 21k|[link](https://taginfo.openstreetmap.org/tags/amenity=taxi)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtaxi)|
+|clinic| 20k|[link](https://taginfo.openstreetmap.org/tags/amenity=clinic)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic)|
+|parking_entrance| 19k|[link](https://taginfo.openstreetmap.org/tags/amenity=parking_entrance)|[link](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dparking_entrance)|
 
 
 
