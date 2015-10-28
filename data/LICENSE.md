@@ -1,4 +1,9 @@
-The process-am-data.R script is released under the MIT license:
+The license for the extracted .tsv files are described in the README.md file.
+
+The process-am-data.R script and the associated documentation README.md file
+are released under the MIT license:
+
+---
 
 The MIT License (MIT)
 

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#
+# check that the data directory contains data files
+#
+if ls ./data/*.tsv > /dev/null 2>&1; then
+   echo " - Found .tsv files"
+else
+   echo "No data files found"
+   exit 1;
+fi
+
+#
+# check that these are not already present in the public dir
+#
+if [ -d ./public/data ]; then
+   echo "'public/data' directory already exists. Please first remove it."
+   exit 1;
+else
+   echo " - public/data directory does not exist"
+fi
+
+
+echo "Copying data files into newly created public directory.."
+mkdir public/data
+cp ./data/*.tsv ./public/data
+echo "Done"
+
