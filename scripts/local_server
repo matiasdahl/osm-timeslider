@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 cd public
 python -m SimpleHTTPServer 8000
 cd ..
