@@ -31,17 +31,19 @@ def am_table():
     """
     Return table with columns:
     
-       ------------------------
-       | amenity   | count    |
-       | (string)  | int      |
-       ------------------------
+       ----------------------------------------
+       | amenity   | first entry  |  count    |
+       | (string)  | (string)     |  int      |
+       ----------------------------------------
        
     """
+    amenities = amenity_list()
+    
     amenity_counts = [lines_in_file(am) for am 
-                                        in amenity_list()]
+                                        in amenities]
 
     df = pd.DataFrame({
-            'amenity': amenity_list(),
+            'amenity': amenities,
             'count': amenity_counts
     }).sort_values(by = 'count', ascending = False)
 
