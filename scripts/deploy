@@ -1,0 +1,20 @@
+#!/bin/bash
+
+git branch -d gh-pages
+git checkout --orphan gh-pages
+
+# remove extra files not needed by the website
+git rm -r images --force  
+git rm -r scripts --force 
+git rm 'README.*' --force 
+git rm LICENSE.ipynb --force 
+git rm df_to_markdown.py --force 
+
+# move website in ./public to root
+git mv public/css .
+git mv public/src .
+git mv public/index.html .
+
+git commit -m “Update of gh-pages”
+git push 
+git checkout master 
