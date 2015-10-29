@@ -1,6 +1,13 @@
 #!/bin/bash
 
-
 cd public
+ln -s ../data data
+ln -s ../lib lib
+
 python -m SimpleHTTPServer 8000
+
+rm data
+rm lib
+
 cd ..
+
