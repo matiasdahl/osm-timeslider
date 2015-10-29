@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OpenStreetMap visualization</title>
+
+<link rel="stylesheet" href="./css/main.css" />
+<link rel="stylesheet" href="./css/slider.css" />
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed'
+	rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="./lib/Leaflet-1.0.0-beta.2/leaflet.css" />
+<link rel="stylesheet" href="./lib/jquery-modal-0.5.9/jquery.modal.css" media="screen" />
+<link rel="stylesheet" href="./lib/SpinKit-1.2.2/5-pulse.css" />
+</head>
+
+<body>
+	<div id="map">
+		<div id="spinner-hud"></div>
+
+		<div id="slider-box">
+			<div id="slider"></div>
+		</div>
+
+		<div class="leaflet-bar leaflet-control-zoom-in leaflet-clickable">
+			<div id="info-button">
+				<a href="#info-view" rel="modal:open">
+                    <i class="fa fa-info"></i>
+				</a>
+			</div>
+		</div>
+
+		<div id="info-view" style="display: none;">
+
+            <!-- place close button inside window -->
+			<a href="#" rel="modal:close">
+                <span style="position: absolute;
+                             display: block;
+                             width: 30px;
+                             height: 30px;
+                             font-size: 25px;
+                             top: 5px;
+                             right: 3px;">
+                    <i class="fa fa-close"> </i>
+                </span>
+			</a>
+
+			<p>
+                The colored dots show map elements on the
+			    <a href="https://openstreetmap.org">OpenStreetMap</a> that are tagged with an
+                'amenity=<span class="tagname_text">replaced_later</span>'-tag. A purpose of the map is to visualize how
+                these elements have been edited over time.
+                The colors of the dots indicate the date each object was last edited.
+                For example, an orange dot represents a map element that was last edited in 2009. Moreover, the slider on the
+                bottom of the screen can be used to select elements that were last edited during a specific time period.
+                Clicking on a marker also displays further information about the map element.
+            </p>
+
+			<p>
+                The underlying map represents the current OpenStreetMap, and the marker data uses OpenStreetMap data
+                from the 10/2015 snapshot. The OpenStreetMap data is &copy; OpenStreetMap contributors, and available
+                under the terms of the <a href="https://www.openstreetmap.org/copyright">ODbL</a>. More information
+                is available on this visualization's
+                <a href="https://github.com/matiasdahl/osm-timeslider">Github page</a>.
+			</p>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+	<script src="./lib/jQRangeSlider-5.7.1/jQAllRangeSliders-withRuler-min.js"></script>
+	<script src="./lib/jquery-modal-0.5.9/jquery.modal.min.js" type="text/javascript"></script>
+	<script src="./lib/Leaflet-1.0.0-beta.2/leaflet.js"></script>
+	<!--script>L_PREFER_CANVAS = true;</script-->
+
+	<script src="./src/loadingspinner.js"></script>
+
+	<script src="./src/getparameter.js"> </script>
+	<script src="./src/mapmarker.js"> </script>
+	<script src="./src/datasource.js"> </script>
+	<script src="./src/dateslider.js"> </script>
+	<script src="./src/interval.js"> </script>
+	<script src="./src/loaddata.js"> </script>
+	<script src="./src/markercollection.js"> </script>
+	<script src="./src/main.js"> </script>
+</body>
+</html>

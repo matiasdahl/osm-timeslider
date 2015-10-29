@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#slider-box {
+    position: fixed;
+    z-index: 1000;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    height: 80px;
+    width: auto;
+}
+
+#info-button {
+    position: fixed;
+    z-index: 1000;
+    top: 70px;
+    left: 10px;
+}
+
+#spinner-hud {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    z-index: 100000;
+    height: 200px;
+    width: 200px;
+}
