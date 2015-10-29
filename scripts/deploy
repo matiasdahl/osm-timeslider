@@ -15,6 +15,6 @@ git mv public/css .
 git mv public/src .
 git mv public/index.html .
 
-git commit -m “Update of gh-pages”
-git push 
+git commit -m "Update of gh-pages"
+git push origin gh-pages
 git checkout master 
