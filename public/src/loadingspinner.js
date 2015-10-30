@@ -3,6 +3,9 @@
 var LoadingSpinner = {
 
 	start : function() {
+    // See:
+    //   https://github.com/tobiasahlin/SpinKit/blob/master/examples/5-pulse.html
+    //
 		var addHtml = '<div class="sk-spinner sk-spinner-pulse"></div>';
 		$("#spinner-hud").html(addHtml);
 	},

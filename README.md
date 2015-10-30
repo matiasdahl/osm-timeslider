@@ -78,6 +78,6 @@ South Korea divides into two regions. The orange dots (in the south) represent 
 
 ### License 
 
-The above table and images are generated using data from the [OpenStreetMap](https:/openstreetmap.org) project. The OSM data is © OpenStreetMap contributors, and it is available under the terms of the [ODbL](https://www.openstreetmap.org/copyright). Maps are drawn using the [Leaflet library](http://leafletjs.com/) using the [Positron tiles](https://cartodb.com/basemaps), tiles © CartoDB, CC BY 3.0. 
+The code for the `osm-timeslider` visualization is open source, see the [LICENSE](LICENSE.md) file.
 
-For further license information, see the [LICENSE.md](LICENSE.md) file.
+The above table and images are generated using data from the [OpenStreetMap](https:/openstreetmap.org) project. This OSM data is © OpenStreetMap contributors, and it is available under the terms of the [ODbL](https://www.openstreetmap.org/copyright). For further details about the amenity data shown in the visualizations, please see the [README](./data/README.md) file in the `data` directory. Maps are drawn using the open source [Leaflet library](http://leafletjs.com/) using the [Positron tiles](https://cartodb.com/basemaps) (tiles © CartoDB, CC BY 3.0). In addition, the `osm-timeslider` visualization makes use the open source libraries: [jQRangeSlider](https://github.com/ghusse/jQRangeSlider), [SpinKit](https://github.com/tobiasahlin/SpinKit), [jQuery](https://jquery.com/) and [jquery-modal](https://github.com/kylefox/jquery-modal), see the [LICENSE](LICENSE.md) file.
