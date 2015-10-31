@@ -12,4 +12,4 @@ var loadData = function(filename, callback) {
 		}
 	};
 	request.send(null);
-}
+};

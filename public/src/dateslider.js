@@ -81,4 +81,5 @@ var DateSlider = function(boundInterval, selectedInterval) {
     $("#slider").dateRangeSlider("enable");
 
 	};
-}
+
+};
